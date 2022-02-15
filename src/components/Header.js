@@ -5,8 +5,8 @@ import WorldIcon from "../images/world-icon.svg"
 function Header() {
   return (
     <header>
-      <img src={WorldIcon} />
-      <h1>my travel journal.</h1>
+      <img className="header--icon" src={WorldIcon} />
+      <h1 className="header--title">my travel journal.</h1>
     </header>
   )
 }

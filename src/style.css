@@ -4,4 +4,26 @@
 
 body {
   margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 55px;
+}
+
+.header--icon {
+  margin: 0 7px 0 0;
+  height: 24px;
+}
+
+.header--title {
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 17.5px;
+  font-weight: 500;
+  margin: 0;
 }
