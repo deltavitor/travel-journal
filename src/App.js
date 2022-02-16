@@ -14,7 +14,7 @@ function App() {
   return(
     <div>
       <Header />
-      <section>
+      <section className="travel-entries--container">
         {entries}
       </section>
     </div>

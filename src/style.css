@@ -13,6 +13,7 @@ header {
   align-items: center;
   background-color: #F55A5A;
   height: 55px;
+  margin: 0 0 45px 0;
 }
 
 .header--icon {
@@ -25,5 +26,78 @@ header {
   font-size: 15px;
   line-height: 17.5px;
   font-weight: 500;
+  margin: 0;
+}
+
+.travel-entries--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 700px;
+  padding: 0 0 18px 0;
+  border-bottom: 1px solid #F5F5F5;
+  margin: 0 40px 18px 40px;
+}
+
+.travel-entry--image {
+  border-radius: 5px;
+  margin: 0 19px 0 0;
+}
+
+.travel-entry--details {
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-entry--location {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 4px 0;
+}
+
+.travel-entry--country {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin: 0 12px 0 0;
+}
+
+.travel-entry--location-icon {
+  margin: 0 4px 0 0;
+}
+
+.travel-entry--link {
+  font-size: 10px;
+  line-height: 12px;
+  color: #918E9B;
+}
+
+.travel-entry--title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #2B283A;
+  margin: 0 0 18px 0;
+}
+
+.travel-entry--date {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #2B283A;
+  margin: 0 0 9px 0;
+}
+
+.travel-entry--description {
+  font-size: 10px;
+  line-height: 150%;
+  color: #2B283A;
   margin: 0;
 }
