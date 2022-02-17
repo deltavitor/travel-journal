@@ -23,10 +23,6 @@ module.exports = {
         use: "html-loader"
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
-      },
-      {
         test: /\.(png|jpg|svg)/,
         type: "asset/resource"
       }
@@ -35,6 +31,6 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: "./public/index.html"
-    }),
+    })
   ]
 }
